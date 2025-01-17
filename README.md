@@ -1,39 +1,67 @@
-# Anime Search
+# AnimeDB - Search and Discover Anime
 
-This template should help get you started developing with Vue 3 in Vite.
+AnimeDB is a minimalist anime search application built using Vue.js and TypeScript. This app allows users to search for anime and view detailed information, including images and synopses, using data fetched from the Jikan API.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Search for anime by title.
+- Display anime details such as title, image, and synopsis.
+- Responsive design that adapts to different screen sizes.
+- Simple and clean UI for an easy-to-use experience.
 
-## Type Support for `.vue` Imports in TS
+## Technologies Used
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- **Vue.js**: JavaScript framework for building the user interface.
+- **TypeScript**: Superset of JavaScript to provide type safety and better development experience.
+- **Tailwind CSS**: A utility-first CSS framework to style the app.
+- **Jikan API**: A RESTful API to fetch anime data.
 
-## Customize configuration
+## Installation
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Clone this repository:
 
-## Project Setup
+   ```bash
+   git clone https://github.com/zoelabbb/animedb.git
+   cd animedb
+   ```
 
-```sh
-npm install
-```
+2. Install the dependencies:
 
-### Compile and Hot-Reload for Development
+   ```bash
+   npm install
+   ```
 
-```sh
-npm run dev
-```
+3. Run the development server:
 
-### Type-Check, Compile and Minify for Production
+   ```bash
+   npm run dev
+   ```
 
-```sh
-npm run build
-```
+   Visit `http://localhost:3000` in your browser to view the app.
 
-### Lint with [ESLint](https://eslint.org/)
+## Usage
 
-```sh
-npm run lint
-```
+- Type the name of an anime in the search bar and press Enter to search.
+- The app will display a list of anime based on your query.
+- You can click on each anime to view its details, including the title, image, and synopsis.
+
+## Contributing
+
+If you'd like to contribute to this project, feel free to open an issue or create a pull request. Your contributions are always welcome!
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+## Author
+
+**Alif Ryuu Bagus Ramadhan**
+
+- [LinkedIn](https://www.linkedin.com/in/alifryuu/)
+- [GitHub](https://github.com/zoelabbb)
+
+## Acknowledgements
+
+- [Jikan API](https://jikan.moe/) - For providing the anime data.
+- [Vue.js](https://vuejs.org/) - For being an awesome JavaScript framework.
+- [Tailwind CSS](https://tailwindcss.com/) - For the utility-first CSS framework.
