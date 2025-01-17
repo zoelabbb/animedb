@@ -1,6 +1,8 @@
 <template>
+
   <div id="app" class="min-h-screen bg-gray-50 flex justify-center items-center">
     <AnimeSearch />
+    <Analytics />
   </div>
 </template>
 
