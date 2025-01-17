@@ -2,18 +2,19 @@
 
   <div id="app" class="min-h-screen bg-gray-50 flex justify-center items-center">
     <AnimeSearch />
-    <Analytics />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
 import AnimeSearch from './components/AnimeSearch.vue';
+import { inject } from "@vercel/analytics"
 
 export default defineComponent({
   name: 'App',
   components: {
-    AnimeSearch
+    AnimeSearch,
+    inject
   }
 });
 </script>
